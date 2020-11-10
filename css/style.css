@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background: #f4f4f2;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header .header-left {
+  float: left;
+  padding: 20px 15px;
+}
+.header .header-right {
+  float: right;
+  padding: 20px 15px;
+}
+.header .wrapper-nav {
+  display: flex;
+  flex: row;
+}
+.header .wrapper-nav a {
+  margin: 0px 10px 0px 10px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #495464;
+}
+.header .wrapper-nav a:hover {
+  background: #495464;
+  color: #f4f4f2;
+  transition: 0.5s;
+}
+.about {
+  height: 400px;
+  background: #e8e8e8;
+  position: relative;
+}
+.about .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+}
+.about .text-about {
+  width: 100%;
+  margin: 10%;
+  height: 100%;
+}
+.about .picture {
+  width: 50%;
+  margin: 10%;
+  height: 100%;
+}
+.about .picture img {
+  width: 100%;
+  border-radius: 10%;
+}
+.list-skill {
+  height: 300px;
+  background: #e8e8e8;
+  position: relative;
+}
+.list-skill .wrapper {
+  padding: 10px 0px 0px 0px;
+  border-top: 1px solid #495464;
+  width: 70%;
+  margin: auto;
+}
+.list-skill .wrapper .heading {
+  padding: 10px 0px;
+  margin: 0px 0px 0px 15px;
+}
+.list-skill .wrapper .list {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.list-skill .wrapper .list ul {
+  margin: 0px 10px 0px 0px;
+  width: 100%;
+  text-align: center;
+}
+.list-skill .wrapper .list li {
+  list-style: none;
+  margin: 10px 0px 0px 25px;
+  font-size: 18pt;
+}
+.list-skill .wrapper .list li:hover {
+  position: relative;
+  bottom: 5px;
+  cursor: pointer;
+}
