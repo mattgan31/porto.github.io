@@ -37,6 +37,7 @@
 }
 .about {
   height: 400px;
+  padding-top: 50px;
   background: #e8e8e8;
   position: relative;
 }
